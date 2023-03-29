@@ -18,7 +18,7 @@ The designs were created to the following widths:
 
 ## Gradients
 
-- Light slate blue (background): hsl(252, 100%, 67%)
+- Light slate blue (background): hsl(252, 100%, 67%) > left bg color
 - Light royal blue (background): hsl(241, 81%, 54%)
 
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
@@ -27,9 +27,9 @@ The designs were created to the following widths:
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
+- Pale blue: hsl(221, 100%, 96%) > title
 - Light lavender: hsl(241, 100%, 89%) > shadow box
-- Dark gray blue: hsl(224, 30%, 27%)
+- Dark gray blue: hsl(224, 30%, 27%) > button
 
 ### Notes
 

@@ -16,7 +16,90 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.container}>
-          <section className={styles.result}></section>
+          <section className={styles.result}>
+            <div className={styles.content}>
+              <h4 className={styles.title}>Your Result</h4>
+              <div className={styles.circle}>
+                <h1>76</h1>
+                <p>of 100</p>
+              </div>
+              <h3 className={styles.subTitle}>Great</h3>
+              <p className={styles.paragraph}>
+                Lorem import ajssjajs asdas jss kks asdjbasd askjdbasd a skdjbad
+                lasd
+              </p>
+            </div>
+          </section>
+          <section className={styles.summary}>
+            <h4 className={styles.titleSum}>Summary</h4>
+            <div className={styles.contentSum}>
+              <div className={styles.dataWrapper}>
+                <p className={styles.dataTitle}>
+                  <Image
+                    src="/images/icon-reaction.svg"
+                    alt="reaction-icon"
+                    width={20}
+                    height={20}
+                    className={styles.icon}
+                  />
+                  &nbsp; Reaction
+                </p>
+                <p className={styles.dataScore}>
+                  <b>80</b> / 100
+                </p>
+              </div>
+              <div className={styles.dataWrapper1}>
+                <p className={styles.dataTitle1}>
+                  <Image
+                    src="/images/icon-memory.svg"
+                    alt="memory-icon"
+                    width={20}
+                    height={20}
+                    className={styles.icon}
+                  />
+                  &nbsp; Memory
+                </p>
+                <p className={styles.dataScore}>
+                  <b>92</b> / 100
+                </p>
+              </div>
+              <div className={styles.dataWrapper2}>
+                <p className={styles.dataTitle2}>
+                  <Image
+                    src="/images/icon-verbal.svg"
+                    alt="verbal-icon"
+                    width={20}
+                    height={20}
+                    className={styles.icon}
+                  />
+                  &nbsp; Verbal
+                </p>
+                <p className={styles.dataScore}>
+                  <b>80</b> / 100
+                </p>
+              </div>
+              <div className={styles.dataWrapper3}>
+                <p className={styles.dataTitle3}>
+                  <Image
+                    src="/images/icon-visual.svg"
+                    alt="visual-icon"
+                    width={20}
+                    height={20}
+                    className={styles.icon}
+                  />
+                  &nbsp; Visual
+                </p>
+                <p className={styles.dataScore}>
+                  <b>80</b> / 100
+                </p>
+              </div>
+            </div>
+            <div className={styles.containerBtn}>
+              <button type="button" className={styles.button}>
+                Continue
+              </button>
+            </div>
+          </section>
         </div>
       </main>
     </>
